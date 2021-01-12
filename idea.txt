@@ -1,0 +1,7 @@
+- image library of pets, trips, etc
+- games in development page
+- alerts?
+- wells?
+- fixed collapsable navbar
+- modal for games page
+- contact infof at bottom

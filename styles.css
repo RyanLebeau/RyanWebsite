@@ -1,77 +1,144 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    font-family: Raleway, sans-serif;
+    line-height: 1.8;
+}
+
+
+#beginJumbo{
+    background-color: #7DB46CFF;
+    color: #E7EBE0FF;
+    padding: 100px 25px;
+}
+#firstCont{
+    color: #7DB46CFF;
+}
+#secondCont{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+}
+#thirdCont{
+    color: #7DB46CFF;
+}
+#socialMedia{
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-bottom: -50px;
+}
+#mountains{
+    width: 542px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbarIcon{
+    width: 64px;
+    height: auto;
+    margin-top:-15px;
+    margin-left:0;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-5 {
+      text-align: center;
+      margin: 15px;
+    }
+}
+
+
+.container-fluid{
+    padding: 50px 50px;
+}
+.hrTag{
+    background-color: #7DB46CFF;
+    height: 2px;
+    width: 30%;
+    margin-left:0;
+    opacity: 40%;
+}
+.hrTagR{
+    background-color: #7DB46CFF;
+    height: 2px;
+    width: 23%;
+    margin-right:0;
+    opacity: 40%;
+}
+.hrTagC{
+    background-color: #7DB46CFF;
+    height: 2px;
+    width: 23%;
+    margin-right:0;
+    opacity: 40%;
+}
+.hobbiesP{
+    margin-bottom: 20px;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: #7DB46CFF;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #7DB46CFF !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.icon-bar{
+    background: #EEF0EB !important;
+}
+
+
+a:hover{
+    opacity: 75%;
 }
 h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
-    color: rgb(240, 240, 240);
-    text-shadow: 2px 2px 8px rgb(75, 72, 72); 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
-p{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 3rem;
-    color: rgb(240, 240, 240);
-    text-shadow: 2px 2px 8px rgb(75, 72, 72); 
-    margin-top: 0;
-    margin-bottom: 0;
+h2{
+    margin-bottom: 20px;
 }
-
-#bar{
-    height: 1.5em;
+h3{
+    margin-bottom: 20px;
+}
+h4{
+    margin-bottom: 15px;
+}
+input[type=text]{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
     width: 100%;
-    background-color: white;
-} #text{
-    color: rgb(189, 0, 0);
+    margin: 8px 0;
+    padding: 4px 4px;
+    border: 1px solid #dfe0dc;
+    border-radius: 4px;
 }
-
-#home{
-    background: url("./Images/snowTwo.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    overflow-y: auto;
-    min-width: 100%;
-    min-height: 100%;
+input[type=submit]{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+    padding: 5px 10px;
+    border: 1px solid #dfe0dc;
+    border-radius: 4px;
 }
-
-.name{
-    display: block;
-    position: relative;
-    text-align: center;
-    z-index: 3;
-    font-family: 'Raleway', sans-serif;
-    top: 6em;
-    font-size: 2rem;
-    color: rgb(240, 240, 240);
-    text-shadow: 2px 2px 8px rgb(75, 72, 72); 
+input:hover[type=submit]{
+    background-color: #dfe0dc;
+    color: #689759;
 }
-#blur{
-    display: block;
-    position: relative;
-    z-index: 2;
-    margin: auto;
-    bottom: 1.6em;
-    height: 14em;
-    width: 36.5em;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 1em;
-    border: 3px solid rgba(0, 0, 0, 0.3);
-    filter: blur(7px);
-}
-
-#bBox{
-    display: block;
-    position: relative;
-    margin: auto;
-    top: 10em;
-    width: 60%;
-    min-height: 30em;
-    background-color: rgb(240, 240, 240);
-    box-shadow: 0px 0px 20px rgba(75, 97, 141, 0.24);
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+textarea{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+    width: 100%;
+    margin: 8px 0;
+    padding: 4px 4px;
+    border: 1px solid #dfe0dc;
+    border-radius: 4px;
 }

@@ -1,32 +1,136 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ryan Lebeau</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="icon" href="favicon.png" type="image/x-icon">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet"> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script type="text/javascript" src="index.js"></script>
+    <title>Ryan Lebeau</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Images/Icons/websiteIcon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
-	<div id="home" class="hero">
-		<div id="bar">
-			<div id="text">
-				<b>This website is still a work in progress, please bear with me.</b>
-			</div>
-		</div>
-	</div>
-	
-	<div id="title" class="name">
-		<h1>Ryan Lebeau</h1>
-		<p>Honours Computer Science Student</br>at the University of Windsor</p>
-	</div>
-	<div id="blur" class="box"></div>
-	<div id="bBox" class="bioBox">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="Images/Icons/navbarIcon.png" alt="NavbarIcon" id="navbarIcon"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav> 
 
-	</div>
-	
+
+    <div class="jumbotron text-center" id="beginJumbo">
+        <h1>Ryan Lebeau</h1>
+        <h3>Computer Science Graduate</h3>
+        <a href="https://www.linkedin.com/in/ryan-lebeau-7620a2178/" target="_blank">
+            <img src="Images/Icons/linkedIn.png" alt="LinkedIn" id="socialMedia">
+        </a>
+        <a href="https://github.com/RyanLebeau" target="_blank">
+            <img src="Images/Icons/github.png" alt="Github" id="socialMedia">
+        </a>
+        <a href="https://www.instagram.com/ryan.lebeau01/" target="_blank">
+            <img src="Images/Icons/instagram.png" alt="Instagram" id="socialMedia">
+        </a>
+
+    </div>
+    <div class="container-fluid" id="firstCont">
+        <div class="row">
+            <div class="col-sm-7">
+                <h2>About Me</h2>
+                <hr class="hrTag">
+                <p>As a recent Computer Science Honours Bachelor graduate from the University of Windsor, I am excited for any new career or research opportunities. 
+                    With both personal and professional experience in graphic design as well (from t-shirts to websites),  I am always excited for any new venture 
+                    that gives me the opportunity to mix my career path and my hobby. Recently, I have been on a research project using machine learning sequential models
+                    to analyze and predict our specified data.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="img-responsive" src="Images/mountain.png" alt="Mountains" id="mountains">
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-fluid" id="secondCont">
+        <h2 class="text-left">Hobbies</h2>
+        <hr class="hrTag" style="width:18%;">
+        <div class="row">
+            <div class="col-sm-4" style="text-align: center;">
+                <h3>Cooking</h3>
+                <p class="hobbiesP">Cooking has always been one of my hobbies since a young age. The amount of creativity that can be 
+                    put into a single dish is endless which, I think, is one of the reasons I fell in love
+                    with it in the first place. The free range to create whatever your mind can imagine makes cooking
+                    one of my go to stress relievers! 
+                </p>
+                <img src="Images/cooking.jpg" class="img-responsive" style="width:100%" alt="cookingImage">
+            </div>
+            <div class="col-sm-4" style="text-align: center;">
+                <h3>Music</h3>
+                <p class="hobbiesP">Music is more than just songs to me, it can help me come out of my lowest lows or enjoy my highest highs in life. Whenever 
+                    I find myself with some downtime, chances are that I'll be sat right in the middle of my drumset playing away to the sounds 
+                    of my favourite bands with limitless opportunities to learn and grow as a musician.
+                </p>
+                <img src="Images/music.jpg" class="img-responsive" style="width:100%" alt="musicImage">
+            </div>
+            <div class="col-sm-4" style="text-align: center;">
+                <h3>Camping</h3>
+                <p class="hobbiesP">From fishing to hunting to hiking, I love every aspect of camping. Going up to Nothern Ontario and camping has been a ritual to 
+                    me ever since I was a child since most of my family lives there. There is something about the nice clean air that is so 
+                    refreshing and the silence of any road noise is the most peaceful sound possible.
+                </p>
+                <img src="Images/camping.jpg" class="img-responsive" style="width:100%" alt="campingImage">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="thirdCont">
+        <div class="row">
+            <h2 class="text-center">Contact Info</h2>
+            <hr class="hrTag" style="margin:auto;width:20%;margin-bottom:50px;">
+            <div class="col-sm-6">
+                <h4 class="text-center" style="margin-left:20px;margin-top:60px;">Feel free to contact me anytime!</h4>
+                <h4 class="text-center" style="margin-right:75px;"><span class="glyphicon glyphicon-phone"></span> +1 226-345-9620</h4>
+                <h4 class="text-center"><span class="glyphicon glyphicon-envelope"></span> ryan.lebeau01@gmail.com</h4>
+            </div>
+            <div class="col-sm-6">
+                <form action="mail_handler.php" method="post">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            First Name: <input type="text" name="first_name"><br>
+                        </div>
+                        <div class="col-sm-6">
+                            Last Name: <input type="text" name="last_name"><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            Email: <input type="text" name="email"><br>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            Message:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
