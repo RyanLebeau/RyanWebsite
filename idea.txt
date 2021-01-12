@@ -4,4 +4,5 @@
 - wells?
 - fixed collapsable navbar
 - modal for games page
-- contact infof at bottom
+- contact info at bottom
+- scroll bar cool
