@@ -43,6 +43,47 @@ body{
       margin: 15px;
     }
 }
+#beginJumboWE{
+    background-color: #7DB46CFF;
+    color: #E7EBE0FF;
+    padding: 60px 25px;
+}
+#firstContWE{
+    color: #7DB46CFF;
+}
+#secContWE{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+}
+#thirdContWE{
+    color: #7DB46CFF;
+}
+#fourthContWE{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+}
+#fifthContWE{
+    color: #7DB46CFF;
+}
+#sixthContWE{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+}
+#beginJumboAP{
+    background-color: #7DB46CFF;
+    color: #E7EBE0FF;
+    padding: 60px 25px;
+}
+#firstContAP{
+    color: #7DB46CFF;
+}
+#secContAP{
+    background-color: #EEF0EB;
+    color: #7DB46CFF;
+}
+#thirdContAP{
+    color: #7DB46CFF;
+}
 
 
 .container-fluid{
